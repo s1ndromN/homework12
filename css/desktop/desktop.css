@@ -1,0 +1,29 @@
+@media (min-width: 1000px) {
+	.cards {
+		flex-direction: row;
+
+		height: 128px;
+		width: 1146px;
+	}
+
+	.vacancies-cards {
+		width: 1146px;
+		height: 700px;
+	}
+
+	li:hover {
+		background-color: #1a75e8;
+		color: white;
+	}
+
+	.vacancies-card {
+		flex-direction: row;
+		width: 1146px;
+		height: 160px;
+	}
+
+	.categories-title {
+		width: 1146px;
+		margin: 0 auto;
+	}
+}
